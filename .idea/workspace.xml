@@ -52,6 +52,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/User/Desktop/Projects/warehouse",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "372d30dd2849813ef674855253900679"
   }
 }]]></component>
@@ -90,6 +91,7 @@
       <workItem from="1666342532982" duration="179000" />
       <workItem from="1666342748992" duration="36000" />
       <workItem from="1666342802018" duration="3688000" />
+      <workItem from="1666447194516" duration="337000" />
     </task>
     <servers />
   </component>
