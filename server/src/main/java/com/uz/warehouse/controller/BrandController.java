@@ -15,8 +15,7 @@ import java.net.http.HttpClient;
 import java.util.List;
 
 @RestController
-@RequestMapping
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@RequestMapping("/brands")
 public class BrandController {
 
     @Autowired
@@ -24,12 +23,11 @@ public class BrandController {
     @Autowired
     BrandRepository brandRepository;
 
-    @GetMapping
+    @GetMapping("/get")
     public List<Brand> getAllBrand() {
         return brandService.find();
     }
-
-    @PostMapping("/brand")
+    @PostMapping("/post")
     @ResponseStatus(HttpStatus.CREATED)
     public Brand addNewBrand(@RequestBody BrandDto brandDto) throws Exception {
         Brand brand = brandService.create(brandDto);
