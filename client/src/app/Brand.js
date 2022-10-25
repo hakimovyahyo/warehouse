@@ -17,7 +17,7 @@ function Brand() {
                 <tr>1</tr>
                 <tr>Yahyo</tr>
                 <tr>
-                    <Button size="sm" color="primary">Edit</Button>
+                    <Button color="primary">Edit</Button>
                 </tr>
                 <tr><Button size="sm" color="primary">Delete</Button>
                 </tr>
