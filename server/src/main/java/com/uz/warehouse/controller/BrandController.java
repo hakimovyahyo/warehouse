@@ -39,7 +39,7 @@ public class BrandController {
         return brandService.update(id, dto);
     }
 
-    @DeleteMapping("/brand/{id}")
+    @DeleteMapping("/brand/delete/{id}")
     @ResponseStatus(HttpStatus.OK)
     public void delete(@PathVariable Integer id){
         brandService.delete(id);

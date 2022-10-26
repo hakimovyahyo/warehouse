@@ -30,8 +30,7 @@ class App extends React.Component {
         }
 
         const brandList = brands.map(brands => {
-            {console.log("Yahyo")}
-            {console.log(brands)}
+
             return <tr key={brands.id}>
                 <td style={{whiteSpace: 'nowrap'}}>{brands.name}</td>
                 <td>
