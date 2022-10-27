@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="27.10.2022's update 1">
-      <change afterPath="$PROJECT_DIR$/client/src/app/BrandEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/Brand.js" afterDir="false" />
-    </list>
+    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="27.10.2022's update. it is 18:10" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +17,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -157,7 +150,7 @@
       <workItem from="1666789632257" duration="3095000" />
       <workItem from="1666841481410" duration="370000" />
       <workItem from="1666857302209" duration="1914000" />
-      <workItem from="1666870426318" duration="5292000" />
+      <workItem from="1666870426318" duration="5598000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1666447604796</created>
@@ -236,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666870533484</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="27.10.2022's update. it is 18:10">
+      <created>1666876214411</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666876214411</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +262,8 @@
     <MESSAGE value="Update with some pressure" />
     <MESSAGE value="27.10.2022's update" />
     <MESSAGE value="27.10.2022's update 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.10.2022's update 1" />
+    <MESSAGE value="27.10.2022's update. it is 18:10" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.10.2022's update. it is 18:10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

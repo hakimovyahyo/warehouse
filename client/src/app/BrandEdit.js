@@ -32,6 +32,7 @@ class BrandEdit extends Component{
         this.setState({item})
     }
 
+    //ijhli;i
     async handleSubmit(event) {
         event.preventDefault();
         const {item} = this.state;
