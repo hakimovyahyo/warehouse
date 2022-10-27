@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="Update with import from reactsrap">
-      <change afterPath="$PROJECT_DIR$/client/src/AppNavbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/ProductTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ProductTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ProductTypeServiceInterface.java" afterDir="false" />
+    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="Update with some pressure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/Brand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Program Files/nodejs/npm",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/warehouse",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
@@ -96,7 +88,7 @@
       <recent name="com.uz.warehouse.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Spring Boot.WarehouseApplication">
     <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -160,7 +152,9 @@
       <workItem from="1666698897497" duration="3731000" />
       <workItem from="1666771145241" duration="1843000" />
       <workItem from="1666789422533" duration="121000" />
-      <workItem from="1666789632257" duration="2943000" />
+      <workItem from="1666789632257" duration="3095000" />
+      <workItem from="1666841481410" duration="370000" />
+      <workItem from="1666857302209" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1666447604796</created>
@@ -211,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666772964912</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update with some pressure">
+      <created>1666792700050</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792700050</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +235,8 @@
     <MESSAGE value="commit2" />
     <MESSAGE value="commit5" />
     <MESSAGE value="Update with import from reactsrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update with import from reactsrap" />
+    <MESSAGE value="Update with some pressure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update with some pressure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,6 +255,11 @@
           <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductTypeController.java</url>
           <line>23</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/BrandController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

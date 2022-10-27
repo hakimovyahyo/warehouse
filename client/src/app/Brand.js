@@ -109,12 +109,12 @@ import React from "react";
 import {Button, ButtonGroup, Table} from "reactstrap";
 import {Link} from "react-router-dom";
 
-class App extends React.Component {
+class Brand extends React.Component {
 
     state = {brands: [], updateBrands: []}
 
     async componentDidMount() {
-        const query = await fetch('http://localhost:8081/brands/get')
+        const query = await fetch('/brands/get')
             .then(response => {
                 return response.json()
             })
@@ -122,7 +122,7 @@ class App extends React.Component {
     }
 
     async remove(id) {
-        await fetch('brands/brand/${id}',{
+        await fetch('/brand/${id}',{
             method: 'DELETE',
         }).then(() => {
             let updateBrands = [...this.state.brands].filter(i => i.id != id);
@@ -183,4 +183,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default Brand;

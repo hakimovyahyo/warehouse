@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ClientList from './app/Brand';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Brand from './app/Brand';
 
 class App extends Component {
     render() {
         return (
             <Router>
-                <Switch>
-                    <Route path='/' exact={true} component={Home}/>
-                    <Route path='/brands' exact={true} component={ClientList}/>
-                </Switch>
+                <Routes>
+                    <Route path='/' element={<Home/>}/>
+                    <Route path='/brands' exact={true} component={Brand}/>
+                </Routes>
             </Router>
         )
     }
