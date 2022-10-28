@@ -12,7 +12,7 @@ class Brand extends Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:8081/productType/get').then(response => {
+        fetch('http://localhost:8081/brands/get').then(response => {
             return response.json()
         }).then(data => this.setState({brands: data}))
     }

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="27.10.2022's update. it is 18:10" />
+    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="27.10.2022's update. it is 18:17">
+      <change afterPath="$PROJECT_DIR$/client/src/app/ProductType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/ProductTypeEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/Brand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/BrandEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/BrandEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductTypeController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,32 +59,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/warehouse&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;372d30dd2849813ef674855253900679&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "import_schema_mapping": "<schema-mapping>\n  <databases>\n    <list>\n      <schema-mapping-item>\n        <source-data-source-id>7f185f4c-ae88-4dc7-aa6c-ec824bd80271</source-data-source-id>\n        <source-path>database/&quot;warehouse&quot;/schema/&quot;public&quot;</source-path>\n        <target-data-source-id>7f185f4c-ae88-4dc7-aa6c-ec824bd80271</target-data-source-id>\n        <target-path>database/&quot;warehouse&quot;/schema/&quot;public&quot;</target-path>\n      </schema-mapping-item>\n    </list>\n  </databases>\n</schema-mapping>",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/warehouse",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "spring.configuration.checksum": "372d30dd2849813ef674855253900679"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.uz.warehouse.service" />
@@ -150,7 +163,9 @@
       <workItem from="1666789632257" duration="3095000" />
       <workItem from="1666841481410" duration="370000" />
       <workItem from="1666857302209" duration="1914000" />
-      <workItem from="1666870426318" duration="5598000" />
+      <workItem from="1666870426318" duration="6055000" />
+      <workItem from="1666876889541" duration="62000" />
+      <workItem from="1666962350522" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1666447604796</created>
@@ -236,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666876214411</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="27.10.2022's update. it is 18:17">
+      <created>1666876645174</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666876645174</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +285,8 @@
     <MESSAGE value="27.10.2022's update" />
     <MESSAGE value="27.10.2022's update 1" />
     <MESSAGE value="27.10.2022's update. it is 18:10" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.10.2022's update. it is 18:10" />
+    <MESSAGE value="27.10.2022's update. it is 18:17" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.10.2022's update. it is 18:17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

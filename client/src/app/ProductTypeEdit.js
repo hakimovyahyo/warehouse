@@ -3,22 +3,19 @@ import {Link, useNavigate} from 'react-router-dom';
 import { Button, Container, Form, FormGroup, Input, Label } from 'reactstrap';
 import AppNavbar from '../AppNavbar';
 
-class BrandEdit extends Component{
-    emptyitem = {
-        name: ''
-    };
+class ProductTypeEdit extends Component{
+    emptyItem = {
+        name : ''
+    }
 
-    constructor(props)  {
+    constructor(props) {
         super(props);
-        this.state = {item: this.emptyitem}
-
-        this.handleChange = this.handleChange.bind(this);
-        this.handleChange = this.handleChange.bind(this);
-    };
+        this.state = {item: this.emptyItem}
+    }
 
     async   componentDidMount() {
         if (this.props.match.params.id !== 'new') {
-            const brand = await (await fetch(`/brands/${this.props.match.params.id}`)).json();
+            const brand = await (await fetch(`/productType/${this.props.match.params.id}`)).json();
             this.setState({item: brand})
         }
     }
@@ -36,7 +33,7 @@ class BrandEdit extends Component{
         event.preventDefault();
         const {item} = this.state;
 
-        await fetch('/brands' + (item.id ? '/' + item.id : ''), {
+        await fetch('/productType' + (item.id ? '/' + item.id : ''), {
             method: (item.id) ? 'PUT' : 'POST',
             headers: {
                 'Accept': 'application/json',
@@ -44,12 +41,13 @@ class BrandEdit extends Component{
             },
             body: JSON.stringify(item),
         });
-        this.props.history.push('/brands')
+        this.props.history.push('/productType')
     }
 
     render() {
         const {item} = this.state
-        const title = <h2>{item.id ? 'Edit Brand' : 'Add Brand'}</h2>;
+        const title = <h2>{item.id ? 'Edit Product Type' : 'Add Product Type'}</h2>;
+
 
         return <div>
             <AppNavbar>
@@ -66,7 +64,6 @@ class BrandEdit extends Component{
             </AppNavbar>
         </div>
     }
-
 }
 
-export default BrandEdit;
+export default ProductTypeEdit;
