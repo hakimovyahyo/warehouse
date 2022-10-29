@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="28.10.2022's update. it is 18:56">
-      <change afterPath="$PROJECT_DIR$/client/src/app/Greetin.js" afterDir="false" />
+    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="29.10.2022's update. it is 8:02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/Brand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/BrandEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/BrandEdit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <recent name="com.uz.warehouse.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Spring Boot.WarehouseApplication">
     <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -162,7 +161,7 @@
       <workItem from="1666870426318" duration="6055000" />
       <workItem from="1666876889541" duration="62000" />
       <workItem from="1666962350522" duration="3318000" />
-      <workItem from="1667009859782" duration="2602000" />
+      <workItem from="1667009859782" duration="5735000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1666447604796</created>
@@ -262,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666965388085</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="29.10.2022's update. it is 8:02">
+      <created>1667012551020</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667012551021</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +297,8 @@
     <MESSAGE value="27.10.2022's update. it is 18:10" />
     <MESSAGE value="27.10.2022's update. it is 18:17" />
     <MESSAGE value="28.10.2022's update. it is 18:56" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.10.2022's update. it is 18:56" />
+    <MESSAGE value="29.10.2022's update. it is 8:02" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.10.2022's update. it is 8:02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,6 +317,21 @@
           <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductTypeController.java</url>
           <line>28</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductTypeController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/BrandController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/BrandController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

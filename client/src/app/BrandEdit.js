@@ -61,6 +61,10 @@ class BrandEdit extends Component{
                             <Input type="text" name="name" id="name" value={item.name || ''}
                                    onChange={this.handleChange} autoComplete="name"/>
                         </FormGroup>
+                        <FormGroup>
+                            <Button color="primary" type="submit">Save</Button>{' '}
+                            <Button color="secondary" tag={Link} to="/clients">Cancel</Button>
+                        </FormGroup>
                     </Form>
                 </Container>
             </AppNavbar>
