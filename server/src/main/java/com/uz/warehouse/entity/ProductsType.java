@@ -18,3 +18,5 @@ public class ProductsType extends AbsEntity{
     private String name;
 
 }
+
+//done

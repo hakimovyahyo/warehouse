@@ -4,15 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="29.10.2022's update. it is 8:02">
+    <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="29.10.2022's update. it is 9:52">
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ClientsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/CalculateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/ClientsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ClientsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/interfaces/ClientsInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/interfaces/ProductsServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/interfaces/UsersServiceInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/Brand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/BrandEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/BrandEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/Dtos/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/Dtos/ClientDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/Dtos/ProductsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/Dtos/ProductsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/entity/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/entity/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/entity/Clients.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/entity/Clients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/entity/ProductsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/entity/ProductsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/entity/Users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -86,19 +110,25 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.uz.warehouse.repository" />
       <recent name="com.uz.warehouse.service" />
       <recent name="com.uz.warehouse.controller" />
-      <recent name="com.uz.warehouse.repository" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.WarehouseApplication">
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="WarehouseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -108,35 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="node" />
-      <package-manager value="npm" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="$PROJECT_DIR$/../../../../Program Files/nodejs/npm" />
-      <package-manager value="npm" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #4" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #6" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +169,8 @@
       <workItem from="1666870426318" duration="6055000" />
       <workItem from="1666876889541" duration="62000" />
       <workItem from="1666962350522" duration="3318000" />
-      <workItem from="1667009859782" duration="5735000" />
+      <workItem from="1667009859782" duration="5766000" />
+      <workItem from="1667204205117" duration="10746000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1666447604796</created>
@@ -268,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667012551021</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="29.10.2022's update. it is 9:52">
+      <created>1667019155181</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667019155181</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,11 +293,32 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="8dbf413a-dd57-4e2c-b2bb-916b05cc00a3">
           <value>
             <State />
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8dbf413a-dd57-4e2c-b2bb-916b05cc00a3" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -298,7 +335,8 @@
     <MESSAGE value="27.10.2022's update. it is 18:17" />
     <MESSAGE value="28.10.2022's update. it is 18:56" />
     <MESSAGE value="29.10.2022's update. it is 8:02" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.10.2022's update. it is 8:02" />
+    <MESSAGE value="29.10.2022's update. it is 9:52" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.10.2022's update. it is 9:52" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,11 +345,6 @@
           <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/BrandController.java</url>
           <line>32</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/BrandService.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductTypeController.java</url>
@@ -332,6 +365,26 @@
           <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/BrandController.java</url>
           <line>38</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ClientsController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ClientsController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ClientsService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/UsersController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

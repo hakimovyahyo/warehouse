@@ -15,3 +15,5 @@ public class Brand extends AbsEntity {
 
     private String name;
 }
+
+//done
