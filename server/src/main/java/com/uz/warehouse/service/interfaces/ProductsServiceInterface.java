@@ -11,7 +11,7 @@ public interface ProductsServiceInterface {
 
     Products create(ProductsDto dto);
 
-    Products update(ProductsDto dto);
+    Products update(Integer id,ProductsDto dto);
 
     void delete(Integer id);
 }

@@ -45,7 +45,7 @@ public class ProductService implements ProductsServiceInterface {
     }
 
     @Override
-    public Products update(ProductsDto dto) {
+    public Products update(Integer id, ProductsDto dto) {
         Products products = new Products();
         if (repository.existsById(dto.getId())) {
             products.setName(dto.getName());

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8585d27f-2fd5-4d69-b821-20ad5535c3f8" name="Changes" comment="&#10;werfe">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/ProductTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/ProductTypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ClientsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ClientsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/interfaces/ProductsServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/uz/warehouse/service/interfaces/ProductsServiceInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +165,7 @@
       <workItem from="1667009859782" duration="5766000" />
       <workItem from="1667204205117" duration="11278000" />
       <workItem from="1667269392990" duration="2171000" />
+      <workItem from="1667271815969" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1666447604796</created>

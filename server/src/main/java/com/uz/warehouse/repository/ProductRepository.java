@@ -15,5 +15,5 @@ public interface ProductRepository extends JpaRepository<Products, Integer> {
     boolean existsByNameEqualsIgnoreCaseAndIdNot(String name, Integer id);
     boolean existsByName(String name);
 
-    List<Brand> findAllByOrderByIdAsc();
+    List<Products> findAllByOrderByIdAsc();
 }
