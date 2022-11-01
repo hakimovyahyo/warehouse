@@ -37,7 +37,7 @@ public class ClientsService implements ClientsInterface {
     @Override
     public Clients update(Integer id, ClientDto dto) {
         Clients clients = new Clients();
-        if (repository.existsById(clients.getId())) {
+        if (repository.existsById(dto.getId())) {
             clients.setId(dto.getId());
             clients.setFullName(dto.getFullName());
             clients.setPhoneNumber(dto.getPhoneNumber());
