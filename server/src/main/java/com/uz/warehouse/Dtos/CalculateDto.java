@@ -12,8 +12,14 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class CalculateDto {
     Integer id;
+
     BigDecimal sum;
     String debit;
     Clients client_id;
 
+    public CalculateDto(BigDecimal sum, String debit, Clients client_id) {
+        this.sum = sum;
+        this.debit = debit;
+        this.client_id = client_id;
+    }
 }
